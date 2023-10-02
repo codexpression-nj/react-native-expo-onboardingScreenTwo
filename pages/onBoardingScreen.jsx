@@ -1,12 +1,12 @@
 //import liraries
 import React, { Component } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, FlatList } from 'react-native';
 
 // create a component
 const OnBoardingScreen = () => {
     return (
         <View style={styles.container}>
-            <Text>OnBoardingScreen</Text>
+            <FlatList/>
         </View>
     );
 };
